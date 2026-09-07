@@ -32,22 +32,37 @@ body {
     width: 200px;
 }
 
+/* Making Links Black */
+a {
+    color: black;
+}
+
 .logo {
     font-size: 1.5rem;
     font-weight: bold;
     text-decoration: underline;
 }
 
-.home {
-    background-color:aquamarine;
+.separator {
+    height: 1px;
+    background-color: lightgray;
+    margin: 20px;
 }
 
+
+/* Page Styles */
 section {
     margin-left: 200px;
     padding: 30px;
+    background-color: yellow;
+    min-height: 100vh;
 }
 
-/* Making Links Black */
-a {
-    color: black;
+.page-title {
+    background-color:aquamarine;
 }
+
+.home {
+        color: green;
+}
+
