@@ -1,0 +1,53 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: black;
+}
+
+/* Page Handler */
+    /* Hide all pages */
+    .page {
+        display: none;
+    }
+
+    /* Show the active page */
+    .page.active {
+        display: block;
+    }
+
+/* Navigation Styles */
+#navigation {
+    background-color: grey;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 200px;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.home {
+    background-color:aquamarine;
+}
+
+section {
+    margin-left: 200px;
+    padding: 30px;
+}
+
+/* Making Links Black */
+a {
+    color: black;
+}
