@@ -9,6 +9,14 @@
         <title>My Portfolio</title>
         <link rel="stylesheet" href="style.css">
         <script src="script.js"></script>
+
+    <!-- Basic Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/basic/boxicons.min.css" rel="stylesheet">
+    <!-- Filled Icons -->
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/filled/boxicons-filled.min.css" rel="stylesheet">
+    <!-- Brand Icons -->
+    
+    <link href="https://cdn.boxicons.com/3.0.8/fonts/brands/boxicons-brands.min.css" rel="stylesheet">
     </head>
 
     <!-- Body -->
@@ -21,10 +29,9 @@
         <div class="navigation-buttons">
             <ul>
                 <a class="logo" href="#home" onclick="showPage('home')"> Chezen Anaydos </a>
-                <li><a href="#about" onclick="showPage('about')">About</a></li>
-                <li><a href="#education" onclick="showPage('education')">Education</a></li>
+                <li><a href="#certifications" onclick="showPage('certifications')">Certifications</a></li>
                 <li><a href="#projects" onclick="showPage('projects')">Projects</a></li>
-                <li><a href="#contact" onclick="showPage('contact')">Contact</a></li>
+                <li><a href="#stack" onclick="showPage('stack')">Stack</a></li>
             </ul> 
         </div>
 
@@ -51,27 +58,42 @@
             </ul>
         </div>
 
+        <!-- Nav Separator -->
+        <div class="separator"></div>
+
+        <!-- Website Editor-->
+        <div class="editor">
+
+
+        </div>
         </nav>
 
         <!-- Home -->
         <section id="home" class="page active">
             
-            <!-- Title Page for Home -->
-            <header class="page-title">
-                <h1></h1>
-                <p>Hi, I'm Chezen Anaydos, a passionate web developer.</p>
-            </header>
-            
+        
+        <!-- My Image-->
+        <div id="self-portrait">
+            <img src="my-image.jpg" alt="Self Portrait">
+        </div>
+        
+        <div class="home-content">
+            <h1>Chezen Anaydos</h1>
+            <h3>-Introduction</h3>
+            <p>I'm a passionate Web Developer with interests in Game Development.</p>
+        </div>
+
+
         </section>
 
         <!-- About -->
         <section id="about" class="page">
 
             <!-- Title Page for About -->
-            <header class="page-title">
+            <div class="page-title">
                 <h1>About Me</h1>
                 <p>Learn more about my background and experience.</p>
-            </header>
+            </div>
 
         </section>
 
@@ -80,13 +102,13 @@
 
         </section>
 
-        <!-- Education -->
-        <section id="education" class="page">
+        <!-- Certifications -->
+        <section id="certifications" class="page">
 
         </section>
 
-        <!-- Contact -->
-        <section id="contact" class="page">
+        <!-- Stack -->
+        <section id="stack" class="page">
 
         </section>
 
@@ -99,7 +121,10 @@
         <section id="gear" class="page">
         </section>
 
+        <!-- Website Editor -->
+        <div id="theme">
 
+        </div>
     </body>
 
 
