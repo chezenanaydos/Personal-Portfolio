@@ -12,15 +12,15 @@ body {
 }
 
 /* Page Handler */
-    /* Hide all pages */
-    .page {
-        display: none;
-    }
+/* Hide all pages */
+.page {
+    display: none;
+}
 
-    /* Show the active page */
-    .page.active {
-        display: block;
-    }
+/* Show the active page */
+.page.active {
+    display: block;
+}
 
 /* Navigation Styles */
 #navigation {
@@ -54,16 +54,16 @@ a {
 section {
     margin-left: 200px;
     padding: 30px;
-    background-color: yellow;
+    background-color: whitesmoke;
     min-height: 100vh;
 }
 
 .page-title {
-    background-color:aquamarine;
+    background-color: aquamarine;
 }
 
 .home {
-        color: green;
+    color: green;
 }
 
 
